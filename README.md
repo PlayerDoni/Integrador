@@ -24,10 +24,10 @@ Logs de Comandos: Além dos logs de commits, você também pode consultar o hist
 ===
 Logs em Ferramentas Externas: Além dos logs internos do Git, muitas ferramentas de hospedagem de código (como GitHub, GitLab, Bitbucket) oferecem interfaces para visualizar e explorar logs de commits e atividades em seus repositórios online.
 
-objects/: A pasta objects/ é uma parte fundamental do funcionamento interno do Git e armazena os objetos de dados que compõem o banco de dados de objetos do sistema de controle de versão. Cada commit, árvore, blob (arquivo) e tag no Git é representado por um objeto de dados, e esses objetos são armazenados na pasta objects/ no diretório .git do seu repositório.
+>objects/: A pasta objects/ é uma parte fundamental do funcionamento interno do Git e armazena os objetos de dados que compõem o banco de dados de objetos do sistema de controle de versão. Cada commit, árvore, blob (arquivo) e tag no Git é representado por um objeto de dados, e esses objetos são armazenados na pasta objects/ no diretório .git do seu repositório.
 
-packed-refs: O arquivo "packed-refs" é um arquivo no formato de texto utilizado pelo Git para armazenar referências a commits (hashes SHA-1) associados a tags e branches. Essas referências são armazenadas de forma compacta e otimizada, o que pode melhorar o desempenho do Git em repositórios com muitas referências.
+>packed-refs: O arquivo "packed-refs" é um arquivo no formato de texto utilizado pelo Git para armazenar referências a commits (hashes SHA-1) associados a tags e branches. Essas referências são armazenadas de forma compacta e otimizada, o que pode melhorar o desempenho do Git em repositórios com muitas referências.
 
-refs/:A pasta "refs/" (abreviação de "references") em um repositório Git é onde as referências a commits, tags, branches e outros objetos são armazenadas. As referências são usadas para rastrear e apontar para posições específicas no histórico de commits do repositório. A estrutura e organização dentro da pasta "refs/" desempenham um papel fundamental no funcionamento do Git 
+>refs/:A pasta "refs/" (abreviação de "references") em um repositório Git é onde as referências a commits, tags, branches e outros objetos são armazenadas. As referências são usadas para rastrear e apontar para posições específicas no histórico de commits do repositório. A estrutura e organização dentro da pasta "refs/" desempenham um papel fundamental no funcionamento do Git 
 
 abrir primeiro a pasta para poder continuar de onde parou.
